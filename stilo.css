@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.limitar-secao {
+  width: 100%;
+  max-width: 1440px;
+  max-height: 1000px;
+  margin: 0 auto;
+}
+
+/*Topo*/
+
+.topo{
+    width: 100%;
+    position: fixed;
+}
+.container-topo{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+    height: 100px;
+}
+.logo-tipo{
+    display: flex;
+    width: 400px;
+    margin-left: 20px;
+}
+.logo-tipo h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.logo-tipo span{
+    color: brown;
+}
+.logo-tipo img{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+    position: relative;
+    top: -5px;
+}
+.links-topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;    
+}
+.links-topo a{
+
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding:5px 12px 5px 12px;
+    background-color: #000566a8;
+}
+.links-topo a:hover{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('banner.fundo.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+ /*Boas vindas*/
+
+ .boas-vindas{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px 100px;
+  text-align: center;
+ }
+ .whats img{
+    position: fixed;
+    right:80px;
+    bottom: 45px;
+ }
+ .whats img:hover{
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: -5px;
+ }
+
+ .container-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ /*Alunos*/
+
+.alunos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.cards-alunos{
+    display: flex;
+    width: 400px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/*Mapa*/
+
+.mapa{
+    margin-top: 50px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+/*Endereço*/
+
+.endereco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    flex-wrap: wrap;
+}
+.card-endereco{
+    height: 150px;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+    display: flex;
+    gap: 10px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rodape-pai{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    width: 50%;
+    height: 40px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
